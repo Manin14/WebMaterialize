@@ -1,0 +1,34 @@
+@media screen and (max-width: 600px) {
+
+    .slider.sliders {
+        height: 300px !important;
+                    }
+       .row .col{ /*unttuk *beri jarak antara kolom 1 2 dan 3  padding youtube*/
+                 padding-left:  30px;
+                 padding-right: 30px; 
+                }
+
+}
+
+.ayam .col {
+
+    padding-left: 15px;  /* jarak sisi gambar*/
+    padding-right:15px; 
+
+    margin-bottom: 30px  /* jarak bawah antar gambar*/
+
+}
+
+.parallax-container{
+    height: auto /* css gambar di paralx ukuran default / automatis*/
+}
+
+.ayam img, /*kelas img dan h2 akan ada efek bayangan warna hitam (rgba)*/
+.ayam h2{
+    filter: drop-shadow(8px 8px 2px rgba(0,0,0,0.5)); /* efek bayangan drop hadow*/
+}
+
+.row .col{
+    margin-bottom: 20px  /* jarak bawah antar gambar*/
+}
+
